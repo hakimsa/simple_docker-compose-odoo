@@ -4,6 +4,9 @@ services:
     image: odoo:12.0
     depends_on:
       - db
+    volumes:
+      - ./extra-addons:/mnt/extra-addons
+      - ./config:/etc/odoo
     ports:
       - "8069:8069"
   db:
