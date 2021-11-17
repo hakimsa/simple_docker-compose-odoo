@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/5c65cecc-2776-4455-a14f-f31f0bc7167f/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Cibnetsolution",
+    "appService.deploySubpath": "."
+}
